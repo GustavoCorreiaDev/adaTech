@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-container">
+            <fieldset>
+
+                <legend class="title">Dados:</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+
+                <br>
+
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" step="1" min="18">
+
+                <br>
+
+                <label for="">tel:</label>
+                <input type="tel" placeholder="(11) 9999-9999" pattern="\(\d{2}\) \d{4}-\d{4}">
+
+                <br>
+
+                <label for="genero">Selecione seu gênero:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+
+                <br>
+
+                <label for="data">data:</label>
+                <input type="date" id="data" name="data" min="01-01-1990" max="01-01-2005">
+
+                <br>
+
+                <label for="hora">Horario:</label>
+                <input type="time" id="hora" name="hora" min="08:00" max="18:00">
+
+                <br>
+
+                <label>Hobbies:</label>
+                
+                <br>
+                
+                <label for="agua">agua</label>
+                <input type="radio" name="agua" id="agua">
+
+                <label for="refri">refri</label>
+                <input type="radio" name="refri" id="refri">
+
+                <label for="refri">energetico</label>
+                <input type="radio" name="energetico" id="energetico">
+
+                <label for="refri">suco</label>
+                <input type="radio" name="suco" id="suco">
+
+                <label for="refri">limão</label>
+                <input type="radio" name="limão" id="limão">
+
+                <br>
+
+                <label for="cor">Selecione uma cor:</label>
+
+                <select id="cor" name="cor">
+
+                    <option value="vermelho">Vermelho</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="amarelo">Amarelo</option>
+                    <option value="roxo">Roxo</option>
+                    <option value="laranja">Laranja</option>
+                    <option value="rosa">Rosa</option>
+
+                </select>
+
+                <br>
+
+            </fieldset>
+            <div class="container-btn">
+                <input type="submit" class="btn">
+                <input type="reset" class="btn">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

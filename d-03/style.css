@@ -1,0 +1,44 @@
+:root {
+    --cor-1: white;
+    --cor-2: black; 
+    --spacePadding: 1.2rem;
+    --fontPrimary: Arial, Helvetica, sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-2);
+    color: var(--cor-1);
+}
+
+.container {
+    padding: 5px;
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+    font-family: var(--fontPrimary);
+}
+
+.form-container label, input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.container-btn {
+    display: flex;
+
+}
+
+.btn {
+    width: 300px;
+    color: var(--cor-1);
+    background-color: var(--cor-2);
+}

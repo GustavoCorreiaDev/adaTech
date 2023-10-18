@@ -1,0 +1,72 @@
+:root {
+    --primary: #7D5A50;
+    --secundary: #B4846C;
+    --tertiary: #E5B299;
+    --quarterly: #FCDEC0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: var(--primary);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-card {
+    color: white;
+    text-decoration: none;
+    margin: 0.8rem;
+}
+
+.link-card:hover {
+    color: rgb(82, 82, 201);
+    transition-duration: 1.5s;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, var(--secundary), var(--tertiary));
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cards-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.card {
+    flex: 0 0 22%;
+    background-image: url(jeep-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 2px;
+}
+
+.aside-container {
+    text-align: center;
+    background-color: var(--secundary);
+    height: 40vh;
+}
+
+.footer {
+    background-color: var(--primary);
+    text-align: center;
+    height: 15vh;
+    padding-top: 2rem;
+    display: block;
+}
