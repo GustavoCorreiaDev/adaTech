@@ -1,0 +1,44 @@
+/*task-04*/
+
+body {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.task-04 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+}
+
+.task-04 .box1,
+.task-04 .box2,
+.task-04 .box3,
+.task-04 .box4 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.task-04 .box1 {
+    background: lightblue;
+}
+
+.task-04 .box2 {
+    background: lightcoral;
+}
+
+.task-04 .box3 {
+    background: lightcyan;
+}
+
+.task-04 .box4 {
+    background: lightgoldenrodyellow;
+}
